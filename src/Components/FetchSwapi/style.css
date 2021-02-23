@@ -1,0 +1,88 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.fetch-button {
+    border: none;
+    width: 300px;
+    height: 30px;
+    border-radius: 9999px;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin: 20px auto;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+.fetch-div {
+    display: flex;
+    flex-flow: row wrap;
+    width: 400px;
+    margin: 10px auto;
+    padding: 0;
+}
+
+ul {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 300px;
+}
+
+li {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+#blue {
+    background: #659af0;
+}
+
+#blue:active {
+    background: #5886d1;
+    transform: scale(0.95);
+}
+
+#green {
+    background: #5dde8f;
+}
+
+#green:active {
+    background: #51b076;
+    transform: scale(0.95);
+}
+
+#red {
+    background: #db484e;
+}
+
+#red:active {
+    background: #ad4044;
+    transform: scale(0.95);
+}
+
+#orange {
+  background: #eba84b;
+}
+
+#orange:active {
+  background: #ba8438;
+  transform: scale(0.95);
+}
+
+#container {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    height: 600px;
+}
+
+.disabled {
+  background: #c9c9c7;
+  color: #878787;
+  cursor: default;
+}

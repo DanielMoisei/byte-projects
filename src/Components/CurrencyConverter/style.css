@@ -1,0 +1,166 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::placeholder {
+	color: #000;
+}
+
+p, h1, h2 {
+	font-family: "Open Sans";
+}
+
+body {
+	background-color: #18191A;
+}
+
+#main h1 {
+	font-size: 30px;
+	text-align: center;
+	margin: 30px auto;
+	color: #FDFFFC;
+	font-weight: 700;
+}
+
+#form {
+	display: flex;
+	flex-flow: column;
+	margin: 0 auto;
+	width: 800px;
+}
+
+#money-div {
+	display: flex;
+	flex-flow: row;
+	margin: 0 auto;
+	width: 450px;
+	justify-content: space-between;
+}
+
+#convert {
+	color: #FDFFFC;
+	font-size: 22px;
+	margin: auto;
+	font-weight: 700;
+}
+
+#money {
+	width: 100px;
+	height: 40px;
+	border-radius: 9999px 0 0 9999px;
+	border: none;
+	background-color: #8ACB88;
+	font-size: 24px;
+	text-align: center;
+	outline: none;
+	border-right: 1px solid #478245;
+}
+
+#money:focus, #first-currency:focus, #new-currency:focus, #ratio-field:focus {
+	background-color: #79a677;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+#first-currency {
+	width: 100px;
+	height: 40px;
+	border-radius: 0 9999px 9999px 0;
+	border: none;
+	background-color: #8ACB88;
+	font-size: 24px;
+	text-align: center;
+	outline: none;
+
+}
+
+#to {
+	color: #FDFFFC;
+	font-size: 22px;
+	margin: auto;
+	font-weight: 700;
+}
+
+#new-currency {
+	width: 100px;
+	height: 40px;
+	border-radius: 9999px;
+	border: none;
+	background-color: #8ACB88;
+	font-size: 24px;
+	text-align: center;
+	outline: none;
+}
+
+#ratio-div {
+	display: flex;
+	flex-flow: row;
+	margin: 40px auto;
+	justify-content: space-between;
+	width: 300px;
+}
+
+#ratio-h2 {
+	color: #FDFFFC;
+	font-size: 22px;
+	margin: auto;
+	font-weight: 700;
+}
+
+#ratio-field {
+	width: 100px;
+	height: 40px;
+	border-radius: 9999px;
+	border: none;
+	background-color: #8ACB88;
+	font-size: 24px;
+	text-align: center;
+	outline: none;
+}
+
+#buttons {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	width: 550px;
+	margin: 0 auto;
+}
+
+.button {
+	width: 250px;
+	height: 50px;
+	border-radius: 9999px;
+	border: 3px solid #478245;
+	background-color: #8ACB88;
+	font-size: 22px;
+	text-align: center;
+	outline: none;
+	margin: 10px auto;
+	padding: 0 0 1px;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #79a677;
+}
+
+#main {
+	display: flex;
+	flex-flow: column;
+	margin: 50px auto;
+}
+
+#main p {
+	color: #FDFFFC;
+	font-size: 20px;
+	margin: 30px auto 0;
+	font-weight: 600;
+}
+
+#curr-title h1 {
+	font-size: 40px;
+}

@@ -1,0 +1,41 @@
+#root {
+	width: 100%;
+}
+
+#app-div {
+	display: flex;
+	flex-flow: column;
+	width: 100%;
+	height: 100%;
+}
+
+#header {
+	display: flex;
+	background: #262626;
+	width: 100%;
+	height: 80px;
+}
+
+#header h2 {
+	margin: 0;
+}
+
+nav {
+	display: flex;
+	flex-flow: row;
+	margin: auto 50px auto auto;
+}
+
+a {
+	text-decoration: none;
+	margin: auto 20px;
+}
+
+.navlink {
+	font-size: 24px;
+}
+
+#home-div {
+	width: 700px;
+	margin: 300px auto;
+}
