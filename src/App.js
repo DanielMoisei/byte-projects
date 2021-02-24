@@ -1,10 +1,12 @@
 import React from "react"
-import {Link, Switch, Route} from "react-router-dom"
+import {BrowserRouter as Router, Link, Switch, Route} from "react-router-dom"
 
 import Homepage from "./Components/Homepage"
 import SpeedtypingGame from "./Components/SpeedtypingGame"
 import CurrencyConverter from "./Components/CurrencyConverter"
 import FetchSwapi from "./Components/FetchSwapi"
+import PictureShop from "./Components/PictureShop"
+import {ContextProvider} from "./Components/PictureShop/DataContext"
 
 
 import "./style.css"
@@ -18,6 +20,7 @@ function App() {
           <Link to="/speed-game"><h2 className="navlink">Speedtyping Game</h2></Link>
           <Link to="/curr-converter"><h2 className="navlink">Currency Converter</h2></Link>
           <Link to="/fetch-swapi"><h2 className="navlink">Star Wars API</h2></Link>
+          <Link to="/picture-shop/browse"><h2 className="navlink">Picture Shop</h2></Link>
         </nav>
       </div>
 
@@ -37,6 +40,14 @@ function App() {
 
         <Route path="/fetch-swapi">
           <FetchSwapi />
+        </Route>
+
+        <Route path="/picture-shop/browse">
+          <ContextProvider>
+            <Router>
+              <PictureShop />
+            </Router>
+          </ContextProvider>
         </Route>
 
       </Switch>
