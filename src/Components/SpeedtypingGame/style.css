@@ -33,13 +33,13 @@ body {
 	margin: 50px auto;
 	display: flex;
 	flex-flow: column;
-	color: lightblue;
+	color: #7291D1;
 }
 
 .typeGameButton {
 	width: 150px;
 	height: 60px;
-	background: lightblue;
+	background: #7291D1;
 	margin: 0 auto;
 	padding: 10px 20px;
   font-family: "Open Sans", "Arial", sans-serif;
@@ -77,7 +77,7 @@ h4 {
 textarea {
   width: 50vw;
   height: 400px;
-	background: lightblue;
+	background: #7291D1;
 	border: 3px solid black;
 	padding: 10px;
   font-family: "Open Sans", "Arial", sans-serif;

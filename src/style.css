@@ -16,14 +16,14 @@
 	height: 80px;
 }
 
-#header h2 {
-	margin: 0;
-}
-
 nav {
 	display: flex;
 	flex-flow: row;
-	margin: auto 50px auto auto;
+	margin: auto 30px auto auto;
+}
+
+#header nav h2 {
+	margin: 0;
 }
 
 a {
@@ -34,10 +34,17 @@ a {
 
 .navlink {
 	font-size: 24px;
+	margin: auto 50px;
 }
+
 
 #home-div {
 	width: 700px;
 	margin: 300px auto;
 	color: #fff;
+}
+
+#navleave {
+	font-size: 24px;
+	margin: auto auto auto 30px;
 }

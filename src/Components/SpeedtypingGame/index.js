@@ -23,6 +23,7 @@ function SpeedtypingGame() {
                 onChange={handleChange}
                 value={text}
                 disabled={!isTimeRunning}
+                spellcheck="false"
             />
             <h4>Time remaining: {timeRemaining}</h4>
             <button
